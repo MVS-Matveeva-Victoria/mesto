@@ -1,0 +1,10 @@
+.profile__edit-button {
+	width: 24px;
+	height: 24px;
+	background-color: black;
+	background-image: url(../../../images/scientist__button.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	border: 1px solid white;
+	margin: 37px 0 0 18px;
+}
