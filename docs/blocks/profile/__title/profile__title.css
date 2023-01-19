@@ -8,4 +8,13 @@
 	margin: 22px 0 0 0;
 	padding: 0;
 	height: fit-content;
+	min-width: 292px; 
+}
+
+@media (max-width: 523.9px) {
+	.profile__title {
+		margin: 26px 0 0 0;
+		font-size: 27px;
+		line-height: 33px;
+	}
 }

@@ -1,0 +1,13 @@
+.places {
+	padding: 51px 0 0 0;
+	max-width: 880px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 50;
+}
+
+@media (max-width: 523.9px) {
+	.places {
+		padding: 36px 0 0 0;
+	}
+}

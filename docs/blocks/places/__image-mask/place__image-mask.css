@@ -1,0 +1,10 @@
+.place__image-mask {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 282px;
+	height: 282px;
+	z-index: 10;
+	background-color: #C4C4C4;
+	transform: matrix(-1, 0, 0, 1, 0, 0);
+}

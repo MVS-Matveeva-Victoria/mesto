@@ -1,0 +1,13 @@
+.profile__form-edit-button {
+	width: 24px;
+	height: 24px;
+	margin: 37px 0 0 18px;
+}
+
+@media (max-width: 523.9px) {
+	.profile__form-edit-button {
+		margin: 34px 0 0 10px;
+		width: 18px;
+		height: 18px;
+	}
+}

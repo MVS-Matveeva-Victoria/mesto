@@ -4,3 +4,15 @@
 	flex-wrap: wrap;
 	height: fit-content;
 }
+
+@media (max-width: 523.9px) {
+	.profile__info {
+		justify-content: center;
+	}
+}
+
+@media (max-width: 340px) {
+	.profile__info {
+		width: 282px
+	}
+}

@@ -1,0 +1,13 @@
+.popup__edit {
+	box-sizing: border-box;
+	background-image: url(../../../images/edit.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 32px;
+	height: 32px;
+	background-color: black;
+}
+
+.popup__edit:hover {
+	opacity: 0.5;
+}

@@ -9,3 +9,11 @@
 	padding: 0;
 	height: fit-content;
 }
+
+@media (max-width: 523.9px) {
+	.profile__subtitle {
+		margin: 14px 0 0 0;
+		font-size: 14px;
+		line-height: 17px;
+	}
+}

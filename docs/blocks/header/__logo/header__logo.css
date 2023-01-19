@@ -3,3 +3,18 @@
 	max-height: 33px;
 	margin: 0;
 }
+
+@media (max-width: 919px) { 
+	.header__logo {
+	margin: 0 0 0 19px;
+	}
+}
+
+@media (max-width: 523.9px) { 
+	.header__logo {
+		max-width: 103.74px;
+		max-height: 24.4px;
+		margin: 0 0 0 27px;
+	}
+}
+

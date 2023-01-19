@@ -5,4 +5,13 @@
 	margin: 0 auto;
 	background-color: black;
 	border-bottom: 1px solid #545454;
+	position: relative;
+	z-index: 50;
+}
+
+@media (max-width: 523.9px) {
+	.header {
+		height: 56px;
+		padding: 28px 0 0 0;
+	}
 }

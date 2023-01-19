@@ -4,4 +4,19 @@
 	max-width: 880px;
 	display: flex;
 	justify-content: space-between;
+	position: relative;
+	z-index: 50;
+}
+
+@media (max-width: 601px) {
+	.profile {
+	flex-wrap: wrap;
+	justify-content: center;
+	}
+}
+
+@media (max-width: 523.9px) { 
+	.profile {
+		padding: 38.25px 0 0 0;
+	}
 }

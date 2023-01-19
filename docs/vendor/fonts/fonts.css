@@ -21,7 +21,7 @@
 
 @font-face {
 	font-family: 'Inter';
-	src: url('../fonts/Inter/Inter-Black/Inter-Black.woff') format('woff'), url('f../fonts/Inter/Inter-Black/Inter-Black.ttf') format('truetype'), url('../fonts/Inter/Inter-Black/Inter-Black.svg') format('svg');
+	src: url('../fonts/Inter/Inter-Black/Inter-Black.ttf') format('truetype'), url('../fonts/Inter/Inter-Black/Inter-Black.woff') format('woff'), url('../fonts/Inter/Inter-Black/Inter-Black.svg') format('svg');
 	font-weight: 900;
 	font-style: normal;
 }
