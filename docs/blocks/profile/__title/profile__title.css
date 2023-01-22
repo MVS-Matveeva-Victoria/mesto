@@ -1,20 +1,19 @@
 .profile__title {
-	font-family: 'Inter';
-	font-style: normal;
-	font-weight: 500;
-	font-size: 42px;
-	line-height: 48px;
-	color: #FFFFFF;
-	margin: 22px 0 0 0;
-	padding: 0;
-	height: fit-content;
-	min-width: 292px; 
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 48px;
+  color: #ffffff;
+  margin: 22px 0 0 0;
+  padding: 0;
+  height: fit-content;
 }
 
 @media (max-width: 523.9px) {
-	.profile__title {
-		margin: 26px 0 0 0;
-		font-size: 27px;
-		line-height: 33px;
-	}
+  .profile__title {
+    margin: 26px 0 0 0;
+    font-size: 27px;
+    line-height: 33px;
+  }
 }

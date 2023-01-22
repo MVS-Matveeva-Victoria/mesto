@@ -1,17 +1,17 @@
 .header {
-	max-width: 880px;
-	height: 74px;
-	padding: 45px 0 0 0;
-	margin: 0 auto;
-	background-color: black;
-	border-bottom: 1px solid #545454;
-	position: relative;
-	z-index: 50;
+  max-width: 880px;
+  height: 74px;
+  padding: 45px 0 0 0;
+  margin: 0 auto;
+  background-color: black;
+  border-bottom: 1px solid #545454;
+  position: relative;
+  z-index: 50;
 }
 
 @media (max-width: 523.9px) {
-	.header {
-		height: 56px;
-		padding: 28px 0 0 0;
-	}
+  .header {
+    height: 56px;
+    padding: 28px 0 0 0;
+  }
 }

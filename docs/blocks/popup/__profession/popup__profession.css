@@ -1,16 +1,22 @@
 .popup__profession {
-	display: block;
-	font-family: 'Inter';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 14px;
-	line-height: 17px;
-	width: 83.25581395348837%;
-	height: 14px;
-	margin: 30px auto 0 auto;
-	padding: 0 0 12px 0;
-	border: 0;
-	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-	color: #000000;
-	outline: none;
+  display: block;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  width: 83.25581395348837%;
+  height: 14px;
+  margin: 30px auto 0 auto;
+  padding: 0 0 12px 0;
+  border: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  color: #000000;
+  outline: none;
+}
+
+@media (max-width: 546px) {
+  .popup__profession {
+    width: 238px;
+  }
 }

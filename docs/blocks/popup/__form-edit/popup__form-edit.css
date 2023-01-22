@@ -1,4 +1,11 @@
 .popup__form-edit {
-	align-self: flex-end;
-	box-sizing: border-box;
+  align-self: flex-end;
+  box-sizing: border-box;
+}
+
+@media (max-width: 546px) {
+  .popup__form-edit {
+    width: 20px;
+    height: 20px;
+  }
 }

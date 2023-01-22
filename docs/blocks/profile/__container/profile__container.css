@@ -1,16 +1,16 @@
 .profile__container {
-	display: flex;
+  display: flex;
 }
 
 @media (max-width: 919px) {
-	.profile__container {
-	margin: 0 19px;
-	}
+  .profile__container {
+    margin: 0 19px;
+  }
 }
 
 @media (max-width: 528px) {
-	.profile__container {
-		flex-wrap: wrap;
-		justify-content: center;
-	}
+  .profile__container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }

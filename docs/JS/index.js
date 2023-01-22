@@ -35,26 +35,17 @@ function handleFormSubmit(evt) {
 formElement.addEventListener('submit', handleFormSubmit);
 
 
-//let places = document.querySelector('.places');
-//let placesGrid = places.querySelector('.places__grid');
-//let placesItems = placesGrid.querySelectorAll('.places__item');
-//let likeForm = placesItems.querySelectorAll('.places__form-like');
-let like = document.querySelectorAll('.places__like_active').forEach(item => item.addEventListener('click', function() {
-	like.remove;
-  
-}));
 
-//function likeRemove() {
-//likeForm.classList.remove('places__like_active');
-//}
-//likeRemove();
 
-//function removeLikeActive() {
-//  like.classList.remove('.places__like_active');
+
+// Работающая функция на одном элементе
+//let like = document.querySelector('.places__like');
+//function likeRemove () {
+//like.classList.toggle('places__like_active');
 //}
-//removeLikeActive();
-//
-//function onClickLike() {
-//  like.classList.toggle('places__like_active');
-//}
-//like.addEventListener('click', onClickLike);
+
+document.querySelectorAll('.places__like').forEach((element) => {
+    element.addEventListener('click', function () {
+  element.classList.toggle('places__like_active');
+    });
+});
