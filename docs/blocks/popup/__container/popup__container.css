@@ -1,6 +1,5 @@
 .popup__container {
   width: 470px;
-  height: 370px;
   position: relative;
   z-index: 100;
   display: flex;
@@ -12,6 +11,5 @@
 @media (max-width: 546px) {
   .popup__container {
     width: 282px;
-    height: 358px;
   }
 }

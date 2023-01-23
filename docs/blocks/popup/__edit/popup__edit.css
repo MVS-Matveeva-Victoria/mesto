@@ -6,6 +6,9 @@
   width: 32px;
   height: 32px;
   background-color: black;
+	align-self: flex-end;
+	padding: 0;
+	border: 0;
 }
 
 .popup__edit:hover {
@@ -19,3 +22,4 @@
     height: 20px;
   }
 }
+
