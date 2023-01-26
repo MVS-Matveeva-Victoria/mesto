@@ -1,11 +1,10 @@
-.popup__name {
-  display: block;
-  font-family: "Inter";
+.popup__input {
+	display: block;
+  font-family: "Inter", ‘Arial’, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
-  max-width: 358px;
   margin: 0 auto;
   padding: 0 0 12px 0;
   border: 0;
@@ -16,8 +15,12 @@
   outline: none;
 }
 
+.popup__input:last-of-type {
+	margin: 30px auto 0 auto;
+}
+
 @media (max-width: 546px) {
-  .popup__name {
+  .popup__input {
     width: 238px;
   }
 }

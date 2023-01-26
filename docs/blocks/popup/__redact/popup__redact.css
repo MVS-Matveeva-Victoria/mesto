@@ -1,25 +1,27 @@
-.popup__edit {
+.popup__redact {
   box-sizing: border-box;
   background-image: url(../../../images/edit.svg);
   background-repeat: no-repeat;
   background-position: center;
   width: 32px;
   height: 32px;
-  background-color: black;
+  background-color: transparent;
 	align-self: flex-end;
 	padding: 0;
 	border: 0;
+	margin: 0 0 8px 0;
 }
 
-.popup__edit:hover {
-  opacity: 0.5;
+.popup__redact:hover {
+  opacity: 0.6;
   cursor: pointer;
 }
 
 @media (max-width: 546px) {
-  .popup__edit {
+  .popup__redact {
     width: 20px;
     height: 20px;
+		background-image: url(../../../images/edit_popup_20.svg);
   }
 }
 

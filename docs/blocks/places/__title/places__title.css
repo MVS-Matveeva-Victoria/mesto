@@ -5,6 +5,13 @@
 	font-size: 24px;
 	line-height: 29px;
 	color: #000000;
-	margin: 0 0 0 21px;
+	margin: 0;
 	padding: 0;
+}
+
+.places__title:last-of-type {
+	max-width: 190px;
+	text-overflow: ellipsis; 
+	white-space: nowrap;   
+	overflow: hidden;
 }

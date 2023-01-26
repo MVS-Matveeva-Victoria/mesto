@@ -2,11 +2,12 @@
   width: 150px;
   height: 50px;
   margin: 35px 0 0 0;
-  background-color: black;
+  background-color: transparent;
   background-repeat: no-repeat;
   background-image: url(../../../images/button-add.svg);
   background-position: center;
   border: 2px solid white;
+	border-radius: 2px;
   padding: 0 10px;
   cursor: pointer;
 }
@@ -25,14 +26,15 @@
   }
 }
 
-@media (max-width: 601px) {
+@media (max-width: 754px) {
   .profile__button-add  {
     width: 282px;
+		margin: 31px auto 0 auto;
   }
 }
 
-@media (max-width: 523.9px) {
+@media (max-width: 330px) {
   .profile__button-add  {
-    margin: 36px auto 0 auto;
+   background-image: url(../../../images/edit_16px.svg);
   }
 }
