@@ -11,7 +11,7 @@
 
 .places__title:last-of-type {
 	max-width: 190px;
-	text-overflow: ellipsis; 
-	white-space: nowrap;   
+	text-overflow: ellipsis;
+	white-space: nowrap;
 	overflow: hidden;
 }
