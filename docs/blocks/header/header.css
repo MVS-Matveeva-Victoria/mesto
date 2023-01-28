@@ -6,12 +6,12 @@
   border-bottom: 1px solid rgba(84, 84, 84, 0.7);
   position: relative;
   z-index: 50;
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 @media (max-width: 523.9px) {
   .header {
-		height: 84px;
+    height: 84px;
     padding: 28px 0 31.6px 0;
   }
 }

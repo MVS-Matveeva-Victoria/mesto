@@ -1,4 +1,4 @@
-.profile__edit-button {
+.profile__redact {
   width: 24px;
   height: 24px;
   margin: 37px 0 0 18px;
@@ -11,16 +11,16 @@
   cursor: pointer;
 }
 
-.profile__edit-button:hover {
+.profile__redact:hover {
   opacity: 0.6;
 }
 
-.profile__edit-button:focus {
+.profile__redact:focus {
   opacity: 0.6;
 }
 
 @media (max-width: 688px) {
-  .profile__edit-button {
+  .profile__redact {
     margin: 33.25px 0 0 10px;
     width: 18px;
     height: 18px;

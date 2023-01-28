@@ -1,37 +1,53 @@
 "use strict";
 
-let profileButtonEdit = document.querySelector('.profile__edit-button');
-let popupEdit = document.querySelector('.popup__redact');
+// Для открытия popup
+let profileRedactButton = document.querySelector('.profile__redact');
 let popup = document.querySelector('.popup');
-let formElement = document.querySelector('.popup__form-save');
-let nameInput = document.querySelector('.popup__input-name_value');
-let jobInput = document.querySelector('.popup__input-profession_value');
+
+//для переноса значения из профиля в инпуты 
 let profileTitle = document.querySelector('.profile__title');
 let profileSubtitle = document.querySelector('.profile__subtitle');
+let popupInputTitleValue = document.querySelector('.popup__input_title_value');
+let popupInputSubtitleValue = document.querySelector('.popup__input_subtitle_value');
 
-function onClick() {
-  popup.classList.add('popup_opened');
+//для закрытия попапа
+let popupEditButton = document.querySelector('.popup__edit-button');
 
-  function handleFormSubmit(evt) {
-    evt.preventDefault();
-    profileTitle.textContent = nameInput.value;
-    profileSubtitle.textContent = jobInput.value;
+// для сохранения данных в профиль
+let saveButton = document.querySelector('.popup__button');
 
-    onClickEdit()
-  }
 
-  formElement.addEventListener('submit', handleFormSubmit);
-}
-
-function onClickEdit() {
-  popup.classList.remove('popup_opened');
-}
-
-document.querySelectorAll('.places__like').forEach((element) => {
-  element.addEventListener('click', function() {
-    element.classList.toggle('places__like_active');
-  });
+document.querySelector('.profile__redact').addEventListener('click', function() {
+	popup.classList.add('popup_opened');
+  popupInputTitleValue.value = profileTitle.textContent;
+  popupInputSubtitleValue.value = profileSubtitle.textContent;
 });
 
-profileButtonEdit.addEventListener('click', onClick);
-popupEdit.addEventListener('click', onClickEdit);
+
+function saveForm(event) {
+  event.preventDefault();
+	profileTitle.textContent = popupInputTitleValue.value;
+	profileSubtitle.textContent = popupInputSubtitleValue.value;
+	
+	popup.classList.remove('popup_opened');
+}
+
+function popupEdit() {
+	popupInputTitleValue.value = profileTitle.textContent;
+  popupInputSubtitleValue.value = profileSubtitle.textContent;
+	
+	popup.classList.remove('popup_opened');
+}
+
+saveButton.addEventListener('click', function(event) {
+  saveForm(event);
+});
+
+popupEditButton.addEventListener('click', popupEdit);
+
+//функция для лайков
+document.querySelectorAll('.places__like').forEach((element) => {
+  element.addEventListener('click', function() {
+  element.classList.toggle('places__like_active');
+  });
+});

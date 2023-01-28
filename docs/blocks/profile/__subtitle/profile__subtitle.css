@@ -7,9 +7,9 @@
   color: #ffffff;
   margin: 8px 0 0 0;
   padding: 0;
-	text-overflow: ellipsis;
-	white-space: nowrap;
-	overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 @media (max-width: 688px) {
@@ -17,13 +17,13 @@
     margin: 9px 0 0 0;
     font-size: 14px;
     line-height: 17px;
-		text-align: center;
-		max-width: 300px;
+    text-align: center;
+    max-width: 300px;
   }
 }
 
 @media (max-width: 400px) {
   .profile__subtitle {
-		max-width: 215px;
+    max-width: 215px;
   }
 }

@@ -7,10 +7,10 @@
   color: #ffffff;
   margin: 22px 0 0 0;
   padding: 0;
-	text-overflow: ellipsis;
-	white-space: nowrap;
-	overflow: hidden;
-	max-width: 450px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 450px;
 }
 
 @media (max-width: 688px) {
@@ -18,12 +18,12 @@
     margin: 26px 0 0 28px;
     font-size: 27px;
     line-height: 33px;
-		max-width: 300px;
+    max-width: 300px;
   }
 }
 
 @media (max-width: 400px) {
   .profile__title {
-		max-width: 215px;
+    max-width: 215px;
   }
 }

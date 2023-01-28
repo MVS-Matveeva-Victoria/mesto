@@ -1,5 +1,5 @@
 .popup__input {
-	display: block;
+  display: block;
   font-family: "Inter", ‘Arial’, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -9,14 +9,14 @@
   padding: 0 0 12px 0;
   border: 0;
   width: 83.25581395348837%;
- 	box-sizing: border-box;
+  box-sizing: border-box;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   color: #000000;
   outline: none;
 }
 
 .popup__input:last-of-type {
-	margin: 30px auto 0 auto;
+  margin: 30px auto 0 auto;
 }
 
 @media (max-width: 546px) {

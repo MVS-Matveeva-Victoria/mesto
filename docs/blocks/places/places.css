@@ -1,10 +1,10 @@
 .places {
-	padding: 51px 0 0 0;
+  padding: 51px 0 0 0;
   max-width: 880px;
   margin: 0 auto;
   position: relative;
   z-index: 50;
-	display: grid;
+  display: grid;
   grid-template-columns: repeat(auto-fit, 282px);
   grid-auto-columns: 282px;
   grid-column-gap: 17px;
@@ -15,6 +15,6 @@
 @media (max-width: 919px) {
   .places {
     margin: 0 19px;
-		padding: 36px 0 0 0;
+    padding: 36px 0 0 0;
   }
 }

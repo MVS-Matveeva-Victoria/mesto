@@ -7,7 +7,7 @@
   background-image: url(../../../images/button-add.svg);
   background-position: center;
   border: 2px solid white;
-	border-radius: 2px;
+  border-radius: 2px;
   padding: 0 10px;
   cursor: pointer;
 }
@@ -27,14 +27,14 @@
 }
 
 @media (max-width: 754px) {
-  .profile__button-add  {
+  .profile__button-add {
     width: 282px;
-		margin: 31px auto 0 auto;
+    margin: 31px auto 0 auto;
   }
 }
 
 @media (max-width: 330px) {
-  .profile__button-add  {
-   background-image: url(../../../images/edit_16px.svg);
+  .profile__button-add {
+    background-image: url(../../../images/edit_16px.svg);
   }
 }

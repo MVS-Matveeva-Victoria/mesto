@@ -1,13 +1,13 @@
 .profile__info {
-	max-width: 500px;
+  max-width: 500px;
   display: flex;
-	flex-direction: column;
+  flex-direction: column;
   height: fit-content;
 }
 
 @media (max-width: 523.9px) {
   .profile__info {
     justify-content: center;
-		align-items: center;
+    align-items: center;
   }
 }

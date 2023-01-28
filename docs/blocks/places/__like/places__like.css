@@ -1,5 +1,5 @@
 .places__like {
-	background-image: url(../../../images/like.svg);
+  background-image: url(../../../images/like.svg);
   background-color: white;
   background-repeat: no-repeat;
   background-position: center;
@@ -9,7 +9,7 @@
   padding: 0;
   align-self: flex-end;
   cursor: pointer;
-	margin: 5px 5px 0 0;
+  margin: 5px 5px 0 0;
 }
 
 .places__like:hover {
