@@ -33,6 +33,8 @@ function popupEdit() {
   popup.classList.remove("popup_opened");
 }
 
+popupEditButton.addEventListener("click", popupEdit);
+
 //функция для лайков к следующему спринту
 //document.querySelectorAll(".places__like").forEach((element) => {
 //  element.addEventListener("click", function () {
@@ -40,4 +42,3 @@ function popupEdit() {
 //  });
 //});
 //
-//popupEditButton.addEventListener("click", popupEdit);
