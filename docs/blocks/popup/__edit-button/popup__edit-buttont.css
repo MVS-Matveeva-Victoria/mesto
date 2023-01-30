@@ -22,5 +22,6 @@
     width: 20px;
     height: 20px;
     background-image: url(../../../images/edit_popup_20.svg);
+		margin: 0;
   }
 }
