@@ -1,4 +1,4 @@
-.popup__edit-button {
+.popup-image__edit {
   box-sizing: border-box;
   background-image: url(../../../images/edit.svg);
   background-repeat: no-repeat;
@@ -9,19 +9,19 @@
   align-self: flex-end;
   padding: 0;
   border: 0;
-  margin: 0 0 8px 0;
+  margin: 0 -40px 8px 0;
 }
 
-.popup__edit-button:hover {
+.popup-image__edit:hover {
   opacity: 0.6;
   cursor: pointer;
 }
 
-@media (max-width: 546px) {
-  .popup__edit-button {
+@media (max-width: 600px) {
+  .popup-image__edit {
     width: 20px;
     height: 20px;
-    background-image: url(../../../images/edit_popup_20.svg);
-    margin: 0;
+    background-image: url(../../../images/SmallEditIcon.svg);
+    margin: 0 0 16px 0;
   }
 }

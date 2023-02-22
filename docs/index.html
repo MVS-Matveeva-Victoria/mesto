@@ -1,94 +1,112 @@
 <!DOCTYPE html>
 <html lang="ru">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="./pages/index.css" />
-		<title>Mesto</title>
-	</head>
-	<body class="root">
-		<div class="wrapper">
-			<div class="popup">
-				<div class="popup__container">
-					<button class="popup__edit-button" type="button"></button>
-					<div class="popup__profile-container">
-						<h2 class="popup__titile">Редактировать профиль</h2>
-						<form class="popup__form-save" name="popup__form-save" action="#">
-							<input class="popup__input popup__input_title_value" value="Жак-Ив Кусто" name="popup__input_title_value" />
-							<input class="popup__input popup__input_subtitle_value" type="text" value="Исследователь океана" name="popup__input_subtitle_value" />
-							<button class="popup__button" type="submit">Сохранить</button>
-						</form>
-					</div>
-				</div>
-			</div>
-			<header class="header">
-				<img class="header__logo" src="./images/header__logo.svg" alt="Тут должен быть логотип" />
-			</header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <title>Mesto</title>
+  </head>
+  <body class="root">
+    <div class="wrapper">
+      <div class="popup">
+        <div class="popup__container">
+          <button class="popup__edit-button" type="button"></button>
+          <div class="popup__profile-container">
+            <h2 class="popup__titile">Редактировать профиль</h2>
+            <form class="popup__form-save" name="popup__form-save" action="#">
+              <input class="popup__input popup__input_title_value" value="Жак-Ив Кусто" name="popup__input_title_value" />
+              <input class="popup__input popup__input_subtitle_value" type="text" value="Исследователь океана" name="popup__input_subtitle_value" />
+              <button class="popup__button" type="submit">Сохранить</button>
+            </form>
+            <form class="popup__places-form" name="popup__form-save" action="#">
+              <input class="popup__places-input popup__places-input_title_value" value="" placeholder="Название" name="popup__input_title_value" />
+              <input class="popup__places-input popup__places-input_subtitle_value" type="text" value="" placeholder="Ссылка на картинку" name="popup__input_subtitle_value" />
+              <button class="popup__button" type="submit">Создать</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="popup-image">
+        <div class="popup-image__container">
+          <button class="popup-image__edit"></button>
+          <img class="popup-image__item" />
+          <h2 class="popup-image__title"></h2>
+        </div>
+      </div>
+      <header class="header">
+        <img class="header__logo" src="./images/header__logo.svg" alt="Тут должен быть логотип" />
+      </header>
 
-			<main class="main">
-				<section class="profile">
-					<div class="profile__container">
-						<img class="profile__image" src="./images/scientist_Djack-Kusto.png" alt="Тут должен быть Жак-Кусто" />
-						<div class="profile__info">
-							<div class="profile__title-container">
-								<h1 class="profile__title">Жак-Ив&nbsp;Кусто</h1>
-								<button class="profile__redact" type="button" name="name"></button>
-							</div>
-							<p class="profile__subtitle">Исследователь&nbsp;океана</p>
-						</div>
-					</div>
-					<button class="profile__button-add" type="button"></button>
-				</section>
+      <main class="main">
+        <section class="profile">
+          <div class="profile__container">
+            <img class="profile__image" src="./images/scientist_Djack-Kusto.png" alt="Тут должен быть Жак-Кусто" />
+            <div class="profile__info">
+              <div class="profile__title-container">
+                <h1 class="profile__title">Жак-Ив&nbsp;Кусто</h1>
+                <button class="profile__redact" type="button" name="name"></button>
+              </div>
+              <p class="profile__subtitle">Исследователь&nbsp;океана</p>
+            </div>
+          </div>
+          <button class="profile__button-add" type="button"></button>
+        </section>
 
-				<section class="places">
-					<div class="places__item">
-						<img class="places__image" src="./images/Karachaensk.png" alt="Тут должен быть Карачаевск" />
-						<div class="places__item-title">
-							<h2 class="places__title">Карачаевск</h2>
-							<button class="places__like" type="button"></button>
-						</div>
-					</div>
-					<div class="places__item">
-						<img class="places__image" src="./images/elbrus.png" alt="Тут должен быть Эльбрус" />
-						<div class="places__item-title">
-							<h2 class="places__title">Гора Эльбрус</h2>
-							<button class="places__like" type="button"></button>
-						</div>
-					</div>
-					<div class="places__item">
-						<img class="places__image" src="./images/donbay.png" alt="Тут должен быть Домбай" />
-						<div class="places__item-title">
-							<h2 class="places__title">Домбай</h2>
-							<button class="places__like" type="button"></button>
-						</div>
-					</div>
-					<div class="places__item">
-						<img class="places__image" src="./images/elbrus.png" alt="Тут должен быть Эльбрус" />
-						<div class="places__item-title">
-							<h2 class="places__title">Гора Эльбрус</h2>
-							<button class="places__like" type="button"></button>
-						</div>
-					</div>
-					<div class="places__item">
-						<img class="places__image" src="./images/donbay.png" alt="Тут должен быть Домбай" />
-						<div class="places__item-title">
-							<h2 class="places__title">Домбай</h2>
-							<button class="places__like" type="button"></button>
-						</div>
-					</div>
-					<div class="places__item">
-						<img class="places__image" src="./images/Karachaensk.png" alt="Тут должен быть Карачаевск" />
-						<div class="places__item-title">
-							<h2 class="places__title">Карачаево-Черкессия</h2>
-							<button class="places__like" type="button"></button>
-						</div>
-					</div>
-				</section>
-			</main>
-			<footer class="footer">
-				<p class="footer__logo">&#169; 2020 Mesto Russia</p>
-			</footer>
-		</div>
-		<script src="./script/index.js"></script>
-	</body>
+        <section class="places">
+          <div class="places__item">
+            <button class="places__item-delete" type="button"></button>
+            <img class="places__image" alt="Тут должен быть Карачаевск" />
+            <div class="places__item-title">
+              <h2 class="places__title">Карачаевск</h2>
+              <button class="places__like" type="button"></button>
+            </div>
+          </div>
+          <div class="places__item">
+            <button class="places__item-delete" type="button"></button>
+            <img class="places__image" src="./images/elbrus.png" alt="Тут должен быть Эльбрус" />
+            <div class="places__item-title">
+              <h2 class="places__title">Гора Эльбрус</h2>
+              <button class="places__like" type="button"></button>
+            </div>
+          </div>
+          <div class="places__item">
+            <button class="places__item-delete" type="button"></button>
+            <img class="places__image" src="./images/donbay.png" alt="Тут должен быть Домбай" />
+            <div class="places__item-title">
+              <h2 class="places__title">Домбай</h2>
+              <button class="places__like" type="button"></button>
+            </div>
+          </div>
+          <div class="places__item">
+            <button class="places__item-delete" type="button"></button>
+            <img class="places__image" src="./images/elbrus.png" alt="Тут должен быть Эльбрус" />
+            <div class="places__item-title">
+              <h2 class="places__title">Гора Эльбрус</h2>
+              <button class="places__like" type="button"></button>
+            </div>
+          </div>
+          <div class="places__item">
+            <button class="places__item-delete" type="button"></button>
+            <img class="places__image" src="./images/donbay.png" alt="Тут должен быть Домбай" />
+            <div class="places__item-title">
+              <h2 class="places__title">Домбай</h2>
+              <button class="places__like" type="button"></button>
+            </div>
+          </div>
+          <div class="places__item">
+            <button class="places__item-delete" type="button"></button>
+            <img class="places__image" src="./images/Karachaensk.png" alt="Тут должен быть Карачаевск" />
+            <div class="places__item-title">
+              <h2 class="places__title">Карачаево-Черкессия</h2>
+              <button class="places__like" type="button"></button>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <p class="footer__logo">&#169; 2020 Mesto Russia</p>
+      </footer>
+    </div>
+    <script src="./script/index.js"></script>
+  </body>
 </html>
