@@ -103,6 +103,7 @@ profileRedactButton.addEventListener("click", function () {
   popup.classList.add("popup_opened");
   popupInputTitleValue.value = profileTitle.textContent;
   popupInputSubtitleValue.value = profileSubtitle.textContent;
+	popupTitile.textContent = "Редактировать профиль";
 });
 
 // сохранение новых данных из Popup в профиль
