@@ -1,4 +1,4 @@
-.popup__places-input {
+.popup-places__places-input {
   display: block;
   font-family: "Inter", ‘Arial’, sans-serif;
   font-style: normal;
@@ -15,16 +15,12 @@
   outline: none;
 }
 
-.popup__places-input::placeholder {
-  color: rgba(196, 196, 196, 1);
-}
-
-.popup__places-input:last-of-type {
+.popup-places__places-input:last-of-type {
   margin: 30px auto 0 auto;
 }
 
 @media (max-width: 546px) {
-  .popup__places-input {
+  .popup-places__places-input {
     width: 238px;
   }
 }

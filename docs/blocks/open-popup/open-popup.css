@@ -1,6 +1,6 @@
-.popup_opened {
-  display: flex;
+.open-popup {
   transition: all 1s ease;
   visibility: visible;
   opacity: 1;
+	z-index: 101;
 }
