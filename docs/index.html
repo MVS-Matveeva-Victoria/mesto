@@ -8,12 +8,12 @@
   </head>
   <body class="root">
     <div class="wrapper">
-      <div class="popup">
+      <div class="popup popup popup_type_profile">
         <div class="popup__container">
           <button class="popup__edit-button" type="button"></button>
           <div class="popup__profile-container">
             <h2 class="popup__titile">Редактировать профиль</h2>
-            <form class="popup__form-save" name="popup__form-save" action="#">
+            <form id="popup__form-save" name="popup__form-save" action="#">
               <input class="popup__input popup__input_title_value" value="Жак-Ив Кусто" placeholder="Имя профиля" name="popup__input_title_value" />
               <input class="popup__input popup__input_subtitle_value" type="text" placeholder="Специализация профиля" value="Исследователь океана" name="popup__input_subtitle_value" />
               <button class="popup__button" type="submit">Сохранить</button>
@@ -21,8 +21,8 @@
           </div>
         </div>
       </div>
-      <div class="popup-places">
-        <div class="popup-places__container">
+      <div class="popup popup popup_type_places">
+        <div class="popup-places">
           <button class="popup-places__edit-button" type="button"></button>
           <div class="popup-places__profile-container">
             <h2 class="popup-places__titile">Новое место</h2>
@@ -34,8 +34,8 @@
           </div>
         </div>
       </div>
-      <div class="popup-image">
-        <div class="popup-image__container">
+      <div class="popup popup_type_image">
+        <div class="popup-image">
           <button class="popup-image__edit"></button>
           <img class="popup-image__item" />
           <h2 class="popup-image__title"></h2>

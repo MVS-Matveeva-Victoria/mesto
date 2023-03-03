@@ -1,4 +1,4 @@
-.popup__form-save {
+#popup__form-save {
 	display: block;
 	z-index: 10;
 }

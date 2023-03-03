@@ -1,5 +1,5 @@
-.open-popup {
-  transition: all 1s ease;
+.popup_opened {
+	transition: all 1s ease;
   visibility: visible;
   opacity: 1;
 	z-index: 101;
