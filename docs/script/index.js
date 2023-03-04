@@ -1,6 +1,6 @@
 "use strict";
 //Переменные: открытие popup
-const popupProfile = document.querySelector(".popup");
+const popupProfile = document.querySelector(".popup_type_profile");
 const profileRedactButton = document.querySelector(".profile__redact");
 
 //Переменные: содержание инпутов popup
@@ -80,10 +80,6 @@ profileRedactButton.addEventListener("click", function () {
 
 //Функция: закрыть popup
 function closePopup(popup) {
-  const popupPlacesTitileValue = document.querySelector(".popup-places__places-input_title_value");
-  const popupPlacesLinkValue = document.querySelector(".popup-places__places-input_subtitle_value");
-  popupPlacesTitileValue.value = "";
-  popupPlacesLinkValue.value = "";
   popup.classList.remove("popup_opened");
 }
 
@@ -107,7 +103,11 @@ profileButtonAdd.addEventListener("click", function () {
 
 //Событие: закрыть popupPlaces
 popupPlacesEditButton.addEventListener("click", function () {
+  const popupPlacesTitileValue = document.querySelector(".popup-places__places-input_title_value");
+  const popupPlacesLinkValue = document.querySelector(".popup-places__places-input_subtitle_value");
   closePopup(popupPlaces);
+  popupPlacesTitileValue.value = "";
+  popupPlacesLinkValue.value = "";
 });
 
 //Функция: закрытия картинки
@@ -141,8 +141,8 @@ function createCard(name, link) {
     popupImage.style.visibility = "visible";
     popupImage.style.opacity = "1";
     popupItem.alt = "Тут должно быть изображение";
-    popupItem.src = this.src;
-    elementName.textContent = this.closest(".places__item").querySelector(".places__title").textContent;
+    popupItem.src = link;
+    elementName.textContent = name;
   });
 
   //Событие: удалить карточку
@@ -174,5 +174,7 @@ popupPlacesForm.addEventListener("submit", function (event) {
 
   const newCard = createCard(popupPlacesTitileValue.value, popupPlacesLinkValue.value);
   renderCard(newCard, cardsContainer);
+  popupPlacesTitileValue.value = "";
+  popupPlacesLinkValue.value = "";
   closePopup(popupPlaces);
 });
