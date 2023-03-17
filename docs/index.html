@@ -15,7 +15,9 @@
             <h2 class="popup__titile">Редактировать профиль</h2>
             <form id="popup__form-save" name="popup__form-save" action="#">
               <input class="popup__input popup__input_title_value" value="Жак-Ив Кусто" placeholder="Имя профиля" name="popup__input_title_value" />
-              <input class="popup__input popup__input_subtitle_value" type="text" placeholder="Специализация профиля" value="Исследователь океана" name="popup__input_subtitle_value" />
+              <span class="popup__input_title_error"></span>
+              <input class="popup__input popup__input_subtitle_value" type="text" placeholder="Специализация профиля" value="Исследователь океана" n1ame="popup__input_subtitle_value" />
+              <span class="popup__input_subtitle_error"></span>
               <button class="popup__button" type="submit">Сохранить</button>
             </form>
           </div>
@@ -26,9 +28,11 @@
           <button class="popup-places__edit-button" type="button"></button>
           <div class="popup-places__profile-container">
             <h2 class="popup-places__titile">Новое место</h2>
-            <form class="popup-places__places-form" name="popup__form-save" action="#">
-              <input class="popup-places__places-input popup-places__places-input_title_value" value="" placeholder="Название" name="popup__input_title_value" />
-              <input class="popup-places__places-input popup-places__places-input_subtitle_value" type="text" value="" placeholder="Ссылка на картинку" name="popup__input_subtitle_value" />
+            <form class="popup-places__places-form" name="popup__form-save" action="#" novalidate>
+              <input class="popup-places__places-input popup-places__places-input_title_value" value="" placeholder="Название" name="popup__input_title_value" required />
+              <span class="popup-places__places-input_title_error"></span>
+              <input class="popup-places__places-input popup-places__places-input_subtitle_value" type="url" value="" placeholder="Ссылка на картинку" name="popup__input_subtitle_value" required />
+              <span class="popup-places__places-input_subtitle_error"></span>
               <button class="popup-places__button" type="submit">Создать</button>
             </form>
           </div>
@@ -77,6 +81,8 @@
         <p class="footer__logo">&#169; 2020 Mesto Russia</p>
       </footer>
     </div>
-    <script src="./script/index.js"></script>
+    <script src="./script/index.js">
+		</script>
+		<script src="./script/validate.js"></script>
   </body>
 </html>

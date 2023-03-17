@@ -2,17 +2,17 @@
   display: block;
   width: 358px;
   height: 50px;
-  background-color: black;
+  background-color: transparent;
   font-family: "Inter", ‘Arial’, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
   text-align: center;
-  color: #ffffff;
+  color: rgba(0, 0, 0, 0.2);
   margin: 48px auto 37px auto;
   box-sizing: border-box;
-  border: 0;
+  border: 1px solid rgba(0, 0, 0, 0.2);;
   padding: 0;
   border-radius: 2px;
 }

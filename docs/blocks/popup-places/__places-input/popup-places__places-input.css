@@ -19,6 +19,10 @@
   margin: 30px auto 0 auto;
 }
 
+.popup-places__places-input::placeholder {
+	color: rgba(196, 196, 196, 1);
+}
+
 @media (max-width: 546px) {
   .popup-places__places-input {
     width: 238px;
