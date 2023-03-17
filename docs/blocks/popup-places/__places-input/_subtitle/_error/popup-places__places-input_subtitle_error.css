@@ -17,3 +17,9 @@
   width: 83.25581395348837%;
   box-sizing: border-box;
 }
+
+@media (max-width: 546px) {
+  .popup-places__places-input_subtitle_error {
+    width: 238px;
+  }
+}

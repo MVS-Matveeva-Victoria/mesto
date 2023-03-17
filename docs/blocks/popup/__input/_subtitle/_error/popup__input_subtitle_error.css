@@ -1,4 +1,4 @@
-.popup__input_subtitle_error{
+.popup__input_subtitle_error {
 	display: block;
 	position: absolute;
 	margin-left: auto;
@@ -16,4 +16,10 @@
   border: 0;
   width: 83.25581395348837%;
   box-sizing: border-box;
+}
+
+@media (max-width: 546px) {
+  .popup__input_subtitle_error {
+    width: 238px;
+  }
 }
