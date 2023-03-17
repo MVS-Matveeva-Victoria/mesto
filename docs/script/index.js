@@ -74,10 +74,10 @@ const popupPlacesForm = document.querySelector(".popup-places__places-form");
 const popupPlacesInput = document.querySelectorAll(".popup-places__places-input");
 const popupPlacesTitileValue = document.querySelector(".popup-places__places-input_title_value");
 const popupPlacesLinkValue = document.querySelector(".popup-places__places-input_subtitle_value");
-const popupPlacesTitileError = document.querySelector(".popup-places__places-input_title_error");
-const popupPlacesLinkError = document.querySelector(".popup-places__places-input_subtitle_error");
-const popupInputTitleError = document.querySelector(".popup__input_title_error");
-const popupInputSubtitleError = document.querySelector(".popup__input_subtitle_error");
+const popupPlacesTitileError = document.querySelector(".popup-places__error_title");
+const popupPlacesLinkError = document.querySelector(".popup-places__error_subtitle");
+const popupInputTitleError = document.querySelector(".popup__error_title");
+const popupInputSubtitleError = document.querySelector(".popup__error_subtitle");
 
 //Функция: открыть popup
 function openPopup(element) {

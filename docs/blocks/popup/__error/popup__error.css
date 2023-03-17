@@ -1,4 +1,4 @@
-.popup__input_title_error {
+.popup__error {
 	display: block;
 	position: absolute;
 	margin-left: auto;
@@ -19,7 +19,7 @@
 }
 
 @media (max-width: 546px) {
-  .popup__input_title_error {
+  .popup__error {
     width: 238px;
   }
 }
